@@ -45,15 +45,16 @@ $ultimodia = date('d-m-Y', strtotime('+1 month' , strtotime( $calculoprimerdia )
         				echo "<td>&nbsp;</td>";
         			}
         			else{
-        				if($day==$dia)
+        				if($day==$dia){
         					echo "<td>$day</td>";
-        				else
+                        }
+        				else{
         					echo "<td>$day</td>";
+                        }
         				$day++;
         			}
         			
-        			if($i%7==0)
-        			{
+        			if($i%7==0){
         				echo "</tr><tr>\n";
         			}
         		}
