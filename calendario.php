@@ -51,7 +51,7 @@ $ultimodia = date('d-m-Y', strtotime('+1 month' , strtotime( $calculoprimerdia )
         					echo "<td>$day</td>";
         				$day++;
         			}
-        			// cuando llega al final de la semana, iniciamos una columna nueva
+        			
         			if($i%7==0)
         			{
         				echo "</tr><tr>\n";
